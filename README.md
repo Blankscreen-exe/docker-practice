@@ -7,3 +7,4 @@ My practice with docker where I try out all sorts of things. You can learn from 
 # Index
 
 001. [Dockerize a Simple Script](./001.%20dockerize%20a%20simple%20script/)
+002. [Run and connect to a Postgres instance](./002.%20run%20and%20connect%20to%20a%20Postgres%20instance/)  
