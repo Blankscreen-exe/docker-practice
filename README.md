@@ -1,3 +1,5 @@
+![Alt text](__docs__/title.png)
+
 # Docker Practice
 
 My practice with docker where I try out all sorts of things. You can learn from it as well since I have categorized everything and have written clean code.
@@ -10,3 +12,4 @@ My practice with docker where I try out all sorts of things. You can learn from 
 002. [Run and connect to a Postgres instance](./002.%20run%20and%20connect%20to%20a%20Postgres%20instance/)  
 003. [Run and connect to a Redis instance](./003.%20run%20and%20connect%20to%20a%20Redis%20instance/)
 004. [Generate a log file outside of the container]()
+005. [Host a Wordpress site]()
