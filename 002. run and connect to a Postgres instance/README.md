@@ -99,9 +99,7 @@ Following is a sample usage of this file:
 If you successfully run it you will see something like this:
 
 ```shell
-PostgreSQL container is already running...
-db_backup_testdb001_2023-10-06_18:39.sql was copied to:
-/workspaces/docker-practice/002. run and connect to a Postgres instance
+Successfully copied 2.56kB to postgres-container:/db_backup/db_backup_testdb001_2023-10-06_18-54.sql
 ```
 
 > **NOTE:** description of how this file works is given inside the file itself
