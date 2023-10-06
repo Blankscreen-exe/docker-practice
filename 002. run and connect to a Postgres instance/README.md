@@ -1,6 +1,6 @@
 # Run and connect to a postgres DB instance
 
-I have established a postgres database instance withing a docker container and have accessed it using a simple python script. For now I am just printing the version(and other detials) of the database, but you are able to run full fledged queries.
+I have established a postgres database instance withing a docker container and have accessed it using a simple python script. For now I am just printing the version(and other details) of the database, but you are able to run full fledged queries.
 
 ## How To Use It?
 
