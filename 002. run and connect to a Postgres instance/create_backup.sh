@@ -19,7 +19,7 @@ DB_NAME="$1"
 #############################################
 
 # Set the current date and time as a backup identifier
-backup_id=$(date +'%Y-%m-%d_%H:%M')
+backup_id=$(date +'%Y-%m-%d_%H-%M')
 # set the name of the output file
 OUTPUT_FILE="db_backup_${DB_NAME}_${backup_id}.sql"
 
