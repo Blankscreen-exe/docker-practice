@@ -6,7 +6,14 @@ To soup this up a bit I have replaced the literals it prints with environment va
 
 On top of that, the `Dockerfile` also installs dependencies it gets from the `requirements.txt` file.
 
-# How To Use It?
+## What You Will Do?
+
+- [x] Write a `Dockerfile` to convert a simple python script into an image.
+- [x] Install script's dependencies while converting it to an image.
+- [x] Using 2 different methods to load ENV variables inside the container.
+- [x] Create a container from that image and run it to see it's output.
+
+## How To Use It?
 
 You will need to build your own image named `dockerize_script`. If you change this name to something else you will not be able to use the `run.sh` script.
 

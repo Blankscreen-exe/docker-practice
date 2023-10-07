@@ -2,6 +2,13 @@
 
 I have established a postgres database instance withing a docker container and have accessed it using a simple python script. For now I am just printing the version(and other details) of the database, but you are able to run full fledged queries.
 
+## What You Will Do?
+
+- [x] Use a pre-existing Postgres image to start a container with a database instance.
+- [x] Use port mapping to connect to the database from our system's environment.
+- [x] Create `.sql` backup files from the DB (inside the container) and copy it to our system's environment.
+- [x] Load `.sql` backup files from our system's environment to the DB instance running inside our container.
+
 ## How To Use It?
 
 First we need to pull a Postgres image
@@ -27,7 +34,7 @@ docker ps
 Before you connect your python script file with the database instance, you need to install a driver for it.
 
 ```shell
-pip install psycopg2-binary
+pip3 install psycopg2-binary
 ```
 
 ## Create Backup Files From The Database Inside The Container

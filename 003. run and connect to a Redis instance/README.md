@@ -4,7 +4,13 @@ I have established a Redis instance withing a docker container and have accessed
 
 I have set some values to keys and then called it back to see the response. To set another example I have set up a default counter which increases the number output by 1 each time you run the script.
 
-# How To Use It?
+## What You Will Do?
+
+- [x] Use a pre-existing Redis image to run it in a container.
+- [x] User post mapping to connect to the Redis instance from our system's environment.
+- [ ] Export the cache to our system's environment.
+
+## How To Use It?
 
 First we need to pull a Postgres image
 
