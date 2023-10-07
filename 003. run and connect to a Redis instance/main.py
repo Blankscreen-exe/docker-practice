@@ -1,3 +1,6 @@
+# This scriopt file is used for connecting to the Redis instance 
+# inside our container and performs operations to it.
+
 import redis
 
 # Redis server configuration
