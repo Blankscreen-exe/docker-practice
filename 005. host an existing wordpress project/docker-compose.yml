@@ -1,0 +1,30 @@
+version: '3'
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./workspace/docker-practice/005.\ host\ an\ existing\ wordpress\ project:/var/www/html
+    networks:
+      - wp-network
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - wp-db-data:/var/lib/mysql
+    networks:
+      - wp-network
+volumes:
+  wp-db-data:
+networks:
+  wp-network:
