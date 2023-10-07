@@ -22,3 +22,10 @@ You can learn from it as well since I have categorized everything and have writt
 | 004 | <span title="WIP">🟡</span>         | [Generate a log file outside of the container]() |
 | 005 | <span title="Not Started">🔴</span> | [Host an existing Wordpress project]() |
 | 006 | <span title="Not Started">🔴</span> | [Use VSCode inside a Docker container for development]() |
+| 007 | <span title="Not Started">🔴</span> | [Create a Sample CI/CD pipeline]() |
+| 008 | <span title="Not Started">🔴</span> | [Setup a network between containers and expose it to host ports]() |
+| 009 | <span title="Not Started">🔴</span> | [Create a persistent data storage area to store backup files]() |
+| 010 | <span title="Not Started">🔴</span> | [Set up a highly available Kubernetes cluster]() |
+| 011 | <span title="Not Started">🔴</span> | [Implement container security]() |
+| 012 | <span title="Not Started">🔴</span> | [Create Multi-Stage Builds]() |
+| 013 | <span title="Not Started">🔴</span> | [Audit docker security]() |
