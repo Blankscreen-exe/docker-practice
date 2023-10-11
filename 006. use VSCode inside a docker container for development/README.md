@@ -50,7 +50,12 @@ List out the current direcotries recognized by docker
 docker info --format '{{.DockerRootDir}}'
 ```
 
-It works if the directory you want is inside the directory listed in `filesharingDirectories`.
+It works if the directory you want is inside the directory listed in the results. If you cannot find your source code path inside this list edit the `filesharingDirectories` key in the docker `deamon.json`.
+
+```shell
+# exclusively for ubuntu
+sudo nano /etc/docker/daemon.json
+```
 
 A good command line tutorial for container file sharing can be found [here](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers-on-ubuntu-22-04)
 
