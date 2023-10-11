@@ -21,7 +21,7 @@ You can learn from it as well since I have categorized everything and have writt
 | 003 | <span title="Done">🔵</span>        | [Run and connect to a Redis instance](./003.%20run%20and%20connect%20to%20a%20Redis%20instance/) |
 | 004 | <span title="WIP">🟡</span>         | [Generate a log file outside of the container]() |
 | 005 | <span title="Not Started">🔴</span> | [Host an existing Wordpress project]() |
-| 006 | <span title="Not Started">🔴</span> | [Use VSCode inside a Docker container for development]() |
+| 006 | <span title="Not Started">🔵</span> | [Use VSCode inside a Docker container for development]() |
 | 007 | <span title="Not Started">🔴</span> | [Create a Sample CI/CD pipeline]() |
 | 008 | <span title="Not Started">🔴</span> | [Setup a network between containers and expose it to host ports]() |
 | 009 | <span title="Not Started">🔴</span> | [Create a persistent data storage area to store backup files]() |
