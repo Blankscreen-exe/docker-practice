@@ -1,6 +1,7 @@
 console.log("HULLO DUM DUMS")
 
-var data_url = "https://raw.githubusercontent.com/Blankscreen-exe/docker-practice/main/__site__/data/data.json"
+var data_url = "https://raw.githubusercontent.com/Blankscreen-exe/docker-practice/main/docs/data/data.json"
+
 // Load the data.json file
 fetch(data_url)
     .then(response => response.json())
