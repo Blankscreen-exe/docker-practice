@@ -31,3 +31,4 @@ You can learn from it as well since I have categorized everything and have writt
 | 013 | <span title="Not Started">🔴</span> | [Audit docker security]() |
 | 014 | <span title="Not Started">🔴</span> | [Create a Sample CI/CD pipeline]() |
 | 015 | <span title="Not Started">🔴</span> | [Host a Team Password Manager for secure pass-keeping]() |
+| 016 | <span title="Not Started">🔴</span> | [Host a simple HTML website]() |
