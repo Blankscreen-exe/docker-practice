@@ -44,7 +44,9 @@ fetch(data_url)
 
         // Initialize DataTables
         $(document).ready(function () {
-            $('#data-table').DataTable();
+            $('#data-table').DataTable({
+                responsive: true
+            });
         });
     })
     .catch(error => console.error('Error loading data:', error));
