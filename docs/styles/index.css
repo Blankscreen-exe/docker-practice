@@ -1,3 +1,7 @@
+body {
+  color: gray;
+}
+
 .tag-item {
   background-color: aliceblue;
   border-radius: 3px;
