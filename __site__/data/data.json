@@ -2,18 +2,21 @@
     {
         "id": 0,
         "status": "Done",
+        "folderLink": "link1",
         "topic": "ABC1",
         "tags": ["Generic", "Hosting"]
     },
     {
         "id": 1,
         "status": "Not Started",
+        "folderLink": "link1",
         "topic": "ABC2",
         "tags": ["Generic", "Hosting"]
     },
     {
         "id": 2,
         "status": "WIP",
+        "folderLink": "link1",
         "topic": "ABC3",
         "tags": ["Generic", "Hosting"]
     }
