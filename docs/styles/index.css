@@ -53,3 +53,7 @@
 .title-img {
     margin-bottom: 50px;
 }
+
+.disabled-link {
+  color: gray !important;
+}
