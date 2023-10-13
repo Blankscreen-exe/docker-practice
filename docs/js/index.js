@@ -1,4 +1,3 @@
-console.log("HULLO DUM DUMS")
 
 var data_url = "https://raw.githubusercontent.com/Blankscreen-exe/docker-practice/main/docs/data/data.json"
 
@@ -18,8 +17,13 @@ fetch(data_url)
             // topicCell.colSpan = 2;
 
             idCell.innerHTML = `<span class="serial-number">${entry.id.toString().padStart(3, "0")}</span>`;
-            topicCell.innerHTML = `<a title="Go To Tutorial" class="tutorial-link" href="${entry.folderLink}">${entry.topic}</a>`;
+
+            topicCell.innerHTML = entry.folderLink 
+            ? `<a title="Go To Tutorial" class="tutorial-link" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${entry.folderLink}">${entry.topic}</a>`
+            : `<a title="Tutorial Not Available" class="tutorial-link" href="#">${entry.topic}</a>`;
+            
             tagsCell.innerHTML = "<span class='tag-container'>" + entry.tags.map( part => `<span class="tag-item">${part}</span>` ).join(' ') + "</span>";
+            
             if (entry.status === "Done") {
                 statusCell.innerHTML = `<span class="status-item" title=" Done ">🔵</span>`;
             } else if (entry.status === "WIP") {
@@ -34,12 +38,6 @@ fetch(data_url)
             row.appendChild(statusCell);
             row.appendChild(topicCell);
             row.appendChild(tagsCell);
-
-            // MSG: logging
-            console.log(idCell);
-            console.log(statusCell);
-            console.log(topicCell);
-            console.log(tagsCell);
 
             tableBody.appendChild(row);
         });
