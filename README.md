@@ -14,6 +14,8 @@ You can learn from it as well since I have categorized everything and have writt
 <!-- <span title="WIP">🟡</span> -->  
 <!-- <span title="Not Started">🔴</span> -->
 
+<!--tutorials-table-start-->
+
 | Id | Status | Topic | Tags |
 |----|----|----|----|
 | 001 | <span title="Done">🔵</span>        | [Dockerize a simple script](./001.%20dockerize%20a%20simple%20script/) | `Generic` |
@@ -30,5 +32,9 @@ You can learn from it as well since I have categorized everything and have writt
 | 012 | <span title="Not Started">🔴</span> | [Create Multi-Stage Builds]() | `Generic`, `Multi-stage builds` |
 | 013 | <span title="Not Started">🔴</span> | [Audit docker security]() | `Generic`, `Security`, `Audit` |
 | 014 | <span title="Not Started">🔴</span> | [Create a Sample CI/CD pipeline]() | `Generic`, `CI/CD` |
-| 015 | <span title="Not Started">🔴</span> | [Host a Team Password Manager for secure pass-keeping]() | `Hosting`, `Pass-Manager` |
+| 015 | <span title="Not Started">🔴</span> | [Host a Team Password Manager for secure pass-keeping]() | `Hosting`, `Secrets` |
 | 016 | <span title="Not Started">🔴</span> | [Host a simple HTML website]() | `Generic`, `Hosting`, `HTML site` |
+| 017 | <span title="Not Started">🔴</span> | [Manage Secrets using Vault container]() | `Hosting`, `Secrets` |
+
+<!--tutorials-table-end-->
+
