@@ -18,7 +18,7 @@ fetch(data_url)
 
             idCell.innerHTML = `<span class="serial-number">${entry.id.toString().padStart(3, "0")}</span>`;
 
-            topicCell.innerHTML = entry.folderLink 
+            topicCell.innerHTML = entry.folderLink == ""
             ? `<a title="Go To Tutorial" class="tutorial-link" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${entry.folderLink}">${entry.topic}</a>`
             : `<a title="Tutorial Not Available" class="tutorial-link" href="#">${entry.topic}</a>`;
             
