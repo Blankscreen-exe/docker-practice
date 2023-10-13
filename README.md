@@ -36,6 +36,7 @@ You can learn from it as well since I have categorized everything and have writt
 | 016 | <span title="Not Started">🔴</span> | [Host a simple HTML website]() | `Generic`, `Hosting`, `HTML site` |
 | 017 | <span title="Not Started">🔴</span> | [Manage Secrets using Vault container]() | `Hosting`, `Secrets` |
 | 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
+| 019 | <span title="Not Started">🔴</span> | [Host CMS with backdrop]() | `Hosting`, `CMS` |
 
 <!--tutorials-table-end-->
 
