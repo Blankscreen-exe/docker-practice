@@ -57,3 +57,7 @@
 .disabled-link {
   color: gray !important;
 }
+
+.footer {
+  margin-top: 50px;
+}
