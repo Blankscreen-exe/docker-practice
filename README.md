@@ -35,6 +35,7 @@ You can learn from it as well since I have categorized everything and have writt
 | 015 | <span title="Not Started">🔴</span> | [Host a Team Password Manager for secure pass-keeping]() | `Hosting`, `Secrets` |
 | 016 | <span title="Not Started">🔴</span> | [Host a simple HTML website]() | `Generic`, `Hosting`, `HTML site` |
 | 017 | <span title="Not Started">🔴</span> | [Manage Secrets using Vault container]() | `Hosting`, `Secrets` |
+| 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
 
 <!--tutorials-table-end-->
 
