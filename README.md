@@ -1,4 +1,4 @@
-![Alt text](__docs__/title.png)
+![Alt text](./docs/assets/img/title.png)
 
 # Docker Practice
 
