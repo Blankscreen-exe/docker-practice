@@ -2,134 +2,233 @@
     {
         "id": 1,
         "status": "Done",
-        "folderLink": "/001.%20dockerize%20a%20simple%20script",
-        "topic": "Dockerize a simple script",
-        "tags": ["Generic"]
+        "topic": {
+            "title": "Dockerize a simple script",
+            "link": "/001.%20dockerize%20a%20simple%20script"
+        },
+        "tags": [
+            "Generic"
+        ]
     },
     {
         "id": 2,
         "status": "Done",
-        "folderLink": "/002.%20run%20and%20connect%20to%20a%20Postgres%20instance",
-        "topic": "Run and connect to a Postgres instance",
-        "tags": ["Generic", "Hosting", "DB"]
+        "topic": {
+            "title": "Run and connect to a Postgres instance",
+            "link": "/002.%20run%20and%20connect%20to%20a%20Postgres%20instance"
+        },
+        "tags": [
+            "Generic",
+            "Hosting",
+            "DB"
+        ]
     },
     {
         "id": 3,
         "status": "Done",
-        "folderLink": "/003.%20run%20and%20connect%20to%20a%20Redis%20instance/",
-        "topic": "Run and connect to a Redis instance",
-        "tags": ["Generic", "Hosting", "Redis"]
+        "topic": {
+            "title": "Run and connect to a Redis instance",
+            "link": "/003.%20run%20and%20connect%20to%20a%20Redis%20instance/"
+        },
+        "tags": [
+            "Generic",
+            "Hosting",
+            "Redis"
+        ]
     },
     {
         "id": 4,
         "status": "WIP",
-        "folderLink": "",
-        "topic": "Generate a log file outside of the container",
-        "tags": ["Generic", "Logging"]
+        "topic": {
+            "title": "Generate a log file outside of the container",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Logging"
+        ]
     },
     {
         "id": 5,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host an existing Wordpress project",
-        "tags": ["Hosting", "Wordpress"]
+        "topic": {
+            "title": "Host an existing Wordpress project",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "Wordpress"
+        ]
     },
     {
         "id": 6,
         "status": "Done",
-        "folderLink": "/006.%20use%20VSCode%20inside%20a%20docker%20container%20for%20development",
-        "topic": "Use VSCode inside a Docker container for development",
-        "tags": ["Virtual IDE", "VSCode"]
+        "topic": {
+            "title": "Use VSCode inside a Docker container for development",
+            "link": "/006.%20use%20VSCode%20inside%20a%20docker%20container%20for%20development"
+        },
+        "tags": [
+            "Virtual IDE",
+            "VSCode"
+        ]
     },
     {
         "id": 7,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host a CyberChef ",
-        "tags": ["Hosting", "CyberChef", "Tool"]
+        "topic": {
+            "title": "Host a CyberChef ",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "CyberChef",
+            "Tool"
+        ]
     },
     {
         "id": 8,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Setup a network between containers and expose it to host ports",
-        "tags": ["Generic", "Hosting", "Networking"]
+        "topic": {
+            "title": "Setup a network between containers and expose it to host ports",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Hosting",
+            "Networking"
+        ]
     },
     {
         "id": 9,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Create a persistent data storage area to store backup",
-        "tags": ["Generic", "Volume", "Binding"]
+        "topic": {
+            "title": "Create a persistent data storage area to store backup",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Volume",
+            "Binding"
+        ]
     },
     {
         "id": 10,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Set up a highly available Kubernetes cluster",
-        "tags": ["Generic", "Kubernetes"]
+        "topic": {
+            "title": "Set up a highly available Kubernetes cluster",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Kubernetes"
+        ]
     },
     {
         "id": 11,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Implement container security",
-        "tags": ["Generic", "Security"]
+        "topic": {
+            "title": "Implement container security",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Security"
+        ]
     },
     {
         "id": 12,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Create Multi-Stage Builds",
-        "tags": ["Generic"]
+        "topic": {
+            "title": "Create Multi-Stage Builds",
+            "link": ""
+        },
+        "tags": [
+            "Generic"
+        ]
     },
     {
         "id": 13,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Audit docker",
-        "tags": ["Generic", "Security", "Audit"]
+        "topic": {
+            "title": "Audit docker",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Security",
+            "Audit"
+        ]
     },
     {
         "id": 14,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Create a Sample CI/CD pipeline",
-        "tags": ["Generic", "CI/CD"]
+        "topic": {
+            "title": "Create a Sample CI/CD pipeline",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "CI/CD"
+        ]
     },
     {
         "id": 15,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host a Team Password Manager for secure pass-keeping",
-        "tags": ["Hosting", "Secrets"]
+        "topic": {
+            "title": "Host a Team Password Manager for secure pass-keeping",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "Secrets"
+        ]
     },
     {
         "id": 16,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host a simple HTML website",
-        "tags": ["Generic", "Hosting"]
+        "topic": {
+            "title": "Host a simple HTML website",
+            "link": ""
+        },
+        "tags": [
+            "Generic",
+            "Hosting"
+        ]
     },
     {
         "id": 17,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Manage Secrets using Vault container",
-        "tags": ["Hosting", "Secrets"]
+        "topic": {
+            "title": "Manage Secrets using Vault container",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "Secrets"
+        ]
     },
     {
         "id": 18,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host URL shortener with yourls",
-        "tags": ["Hosting", "Tool"]
+        "topic": {
+            "title": "Host URL shortener with yourls",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "Tool"
+        ]
     },
     {
         "id": 19,
         "status": "Not Started",
-        "folderLink": "",
-        "topic": "Host CMS with backdrop",
-        "tags": ["Hosting", "CMS"]
+        "topic": {
+            "title": "Host CMS with backdrop",
+            "link": ""
+        },
+        "tags": [
+            "Hosting",
+            "CMS"
+        ]
     }
 ]
