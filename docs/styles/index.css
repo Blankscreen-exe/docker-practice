@@ -65,3 +65,7 @@ body {
 .footer {
   margin-top: 50px;
 }
+.table-responsive::-webkit-scrollbar {
+  width: 10px;
+  background: #f1f1f1;
+}
