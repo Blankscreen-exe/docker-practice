@@ -76,3 +76,8 @@ body {
     height: 4px;
     background: #e0e0e0;
 }
+.table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 4px;
+    background: #a3cadb;
+}
