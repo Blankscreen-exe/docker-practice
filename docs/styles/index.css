@@ -65,6 +65,12 @@ body {
 .footer {
   margin-top: 50px;
 }
+.table-responsive {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .table-responsive::-webkit-scrollbar {
     border-radius: 10px;
     height: 4px;
