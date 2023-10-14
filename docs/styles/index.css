@@ -66,6 +66,7 @@ body {
   margin-top: 50px;
 }
 .table-responsive::-webkit-scrollbar {
-  width: 10px;
-  background: #f1f1f1;
+    border-radius: 10px;
+    height: 4px;
+    background: #e0e0e0;
 }
