@@ -1,36 +1,11 @@
+/*********************************************
+ General
+*********************************************/
+
 body {
   color: gray !important;
 }
 
-.tag-item {
-  background-color: aliceblue;
-  border-radius: 3px;
-  padding: 2px 4px;
-  margin-top: 16px;
-}
-.tag-item:hover {
-    background-color: rgb(201, 225, 247);
-}
-.status-item {
-  cursor: help;
-}
-
-.tutorial-link {
-  text-decoration: none;
-  font-weight: 500;
-  padding: 3px 5px;
-}
-.tutorial-link:hover {
-  /* text-decoration: underline; */
-  color: rgb(129, 160, 243);
-  /* background-color: rgb(150, 194, 235); */
-  border-radius: 5px;
-  transition: 0.5s;
-}
-.serial-number {
-    color: rgb(26, 111, 190);
-    font-weight: 700;
-}
 .jumbotron {
   display: flex;
   flex-direction: column;
@@ -38,48 +13,171 @@ body {
   margin-top: 40px;
 }
 
-.table-container {
-  width: 70%;
-}
-.dataTable {
-  width: 100%;
-}
 .title-and-description {
-    width: 70%;
-    margin-bottom: 50px;
+  width: 70%;
+  margin-bottom: 50px;
 }
 
-.tag-container {
-    display: flex;
-    gap: 5px;
-    font-size: smaller;
-}
 .title-img {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.title-img-container {
+  text-align: center;
+}
+/*********************************************
+ Tags
+*********************************************/
+
+.tag-item {
+  background-color: aliceblue;
+  border-radius: 3px;
+  padding: 2px 4px;
+  /* margin-top: 16px; */
+}
+.tag-item:hover {
+  background-color: rgb(201, 225, 247);
+}
+
+/*********************************************
+ Status
+*********************************************/
+
+.status-item {
+  cursor: help;
+}
+
+/*********************************************
+ Tutorial links
+*********************************************/
+
+.tutorial-link {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.tutorial-link:hover {
+  color: rgb(129, 160, 243);
+  border-radius: 5px;
+  transition: 0.5s;
 }
 
 .disabled-link {
   color: gray !important;
 }
 
+/*********************************************
+ Serial numbers
+*********************************************/
+
+.serial-number {
+  color: rgb(26, 111, 190);
+  font-weight: 700;
+}
+
+/*********************************************
+ Data table
+*********************************************/
+
+.table-container {
+  width: 70%;
+}
+
+.dataTable {
+  width: 100%;
+}
+
+.tag-container {
+  display: flex;
+  gap: 5px;
+  font-size: smaller;
+}
+
+#data-table_wrapper > div:nth-child(2)::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 7px;
+}
+
+#data-table_wrapper > div:nth-child(2)::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 4px;
+  background: #0074ba40;
+}
+
+#data-table_wrapper > div:nth-child(2) {
+  overflow-x: scroll;
+}
+
+#data-table_wrapper > div:nth-child(1) div {
+  margin: 5px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#data-table_wrapper > div:nth-child(3) div {
+  margin: 5px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#data-table {
+  width: 100%;
+}
+
+.dt-row > div {
+  min-width: max-content;
+}
+
+.dataTables_filter > input {
+  width: 100%;
+}
+
+#data-table > tbody tr:hover {
+  background-color: aqua;
+}
+/*********************************************
+ Footer
+*********************************************/
+
 .footer {
   margin-top: 50px;
   margin-bottom: 20px;
-  width: 70%;
+  padding-left: auto;
+  padding-right: auto;
+  width: 100%;
 }
-.table-responsive {
-  padding-bottom: 25px;
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
+
+.footer p {
+  margin: 0px 15%;
+  text-align: center;
 }
-.table-responsive::-webkit-scrollbar {
-    border-radius: 10px;
-    height: 4px;
-    background: #e0e0e0;
+
+/*********************************************
+ Responsiveness
+*********************************************/
+
+@media only screen and (max-width: 600px) {
+  
+  .dt-row {
+    font-size: smaller;
+  }
+
+  #data-table_wrapper > div:nth-child(1) div div label input {
+    width: 70%;
+  }
+
+  #data-table_wrapper > div:nth-child(1) div div label {
+    width: 100%;
+  }
+
 }
-.table-responsive::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    height: 4px;
-    background: #a3cadb;
+
+
+@media only screen and (min-width: 600px) {
+
+  .title-img {
+    max-width: 80%;
+  }
+
 }
