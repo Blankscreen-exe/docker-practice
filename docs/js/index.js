@@ -82,8 +82,8 @@ fetch(data_url)
                     "searchable": true,
                     "render": function (data, type) {
                         return data.link != ""
-                            ? `<a title="Go To Tutorial" class="tutorial-link" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${data.link}">${data.title}</a>`
-                            : `<a title="Tutorial Not Available" class="tutorial-link disabled-link" href="#">${data.title}</a>`;
+                            ? `<a title="Go To Tutorial" class="tutorial-link" target="_blank" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${data.link}">${data.title}</a>`
+                            : `<a title="Tutorial Not Available" class="tutorial-link disabled-link" target="_blank" href="#">${data.title}</a>`;
                     } 
                   },
                   {
