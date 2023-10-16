@@ -26,7 +26,7 @@ You can learn from it as well since I have categorized everything and have writt
 | 005 | <span title="Not Started">🔴</span> | [Host an existing Wordpress project]() | `Hosting`, `Wordpress` |
 | 006 | <span title="Done">🔵</span>        | [Use VSCode inside a Docker container for development](./006.%20use%20VSCode%20inside%20a%20docker%20container%20for%20development/) | `Virtual IDE`, `VSCode` |
 | 007 | <span title="Not Started">🔴</span> | [Host a CyberChef Instance]() | `CyberChef`, `Tool` |
-| 008 | <span title="Not Started">🔴</span> | [Setup a network between containers and expose it to host ports]() | `Generic`, `Hosting`, `Networking` |
+| 008 | <span title="Not Started">🔴</span> | [Setup a network between containers and expose it to host ports]() | `Generic`, `Hosting`, `Container Networking` |
 | 009 | <span title="Not Started">🔴</span> | [Create a persistent data storage area to store backup files]() | `Generic`, `Volume`, `Binding` |
 | 010 | <span title="Not Started">🔴</span> | [Set up a highly available Kubernetes cluster]() | `Generic`, `Kubernetes` |
 | 011 | <span title="Not Started">🔴</span> | [Implement container security]() | `Generic`, `Security` |
@@ -39,5 +39,6 @@ You can learn from it as well since I have categorized everything and have writt
 | 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
 | 019 | <span title="Not Started">🔴</span> | [Host CMS with backdrop]() | `Hosting`, `CMS` |
 | 020 | <span title="WIP">🟡</span> | [Host Tor browser within a browser](./020.%20host%20tor%20browser%20within%20a%20browser/) | `Hosting`, `Browser` |
+| 021 | <span title="Not Started">🔴</span> | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
 <!--tutorials-table-end-->
 
