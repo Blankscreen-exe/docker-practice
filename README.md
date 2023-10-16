@@ -8,7 +8,7 @@ You can learn from it as well since I have categorized everything and have writt
 
 > 📌 Each tutorial will be found inside a separate folder (with prefix `000.` where `000` can by any number)
 
-### Checkout [this site](https://blankscreen-exe.github.io/docker-practice/) also for a better search experience.
+### Checkout [this site](https://blankscreen-exe.github.io/docker-practice/) 💻 also for a better search experience.
 
 # Index
 
@@ -17,7 +17,6 @@ You can learn from it as well since I have categorized everything and have writt
 <!-- <span title="Not Started">🔴</span> -->
 
 <!--tutorials-table-start-->
-
 | Id | Status | Topic | Tags |
 |----|----|----|----|
 | 001 | <span title="Done">🔵</span>        | [Dockerize a simple script](./001.%20dockerize%20a%20simple%20script/) | `Generic` |
@@ -40,6 +39,5 @@ You can learn from it as well since I have categorized everything and have writt
 | 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
 | 019 | <span title="Not Started">🔴</span> | [Host CMS with backdrop]() | `Hosting`, `CMS` |
 | 020 | <span title="Not Started">🔴</span> | [Host Tor Browser and utilities]() | `Hosting`, `Browser` |
-
 <!--tutorials-table-end-->
 
