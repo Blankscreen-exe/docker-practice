@@ -22,7 +22,7 @@ fetch(data_url)
 
         //     topicCell.innerHTML = entry.folderLink != ""
         //     ? `<a title="Go To Tutorial" class="tutorial-link" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${entry.folderLink}">${entry.topic}</a>`
-        //     : `<a title="Tutorial Not Available" class="tutorial-link disabled-link" href="#">${entry.topic}</a>`;
+        //     : `<span title="Tutorial Not Available" class="tutorial-link disabled-link">${entry.topic}</span>`;
             
         //     tagsCell.innerHTML = "<span class='tag-container'>" + entry.tags.map( part => `<span class="tag-item">${part}</span>` ).join(' ') + "</span>";
             
