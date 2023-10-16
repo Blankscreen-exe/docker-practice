@@ -59,3 +59,46 @@ TZ sets the timezone to "*Europe/Vienna*" within the container.
 ```
 
 This line sets up a Docker volume, which is a directory on the host machine that gets mounted inside the container. In this case, it maps the directory `/srv/tor` on the host to the path `/app/Browser/TorBrowser/Data/Tor` within the container. This volume mapping is typically used for persisting data and configurations, so the data from the Tor Browser can be stored and accessed across container restarts.
+
+==================
+### scratch stuff
+
+https://av.tib.eu/media/54515
+
+```yml
+version: "2" services:
+  tor:
+    image: goldy/tor-hidden-service:latest
+    links:
+      -wordpress
+    restart: always
+# Keep keys in volumes
+    volumes:
+      - ./tor:/var/lib/tor/hidden_service
+    environment:
+# Set mapping ports
+      WORDPRESS_PORTS: "80:80"
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress123
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+    wordpress:
+      depends_on:
+        - db
+      image: wordpress:latest
+      links:
+        - db
+      restart: always
+      environment:
+        WORDPRESS_DB_HOST: db:3306
+        WORDPRESS_DB_USER: wordpress
+        WORDPRESS_DB_PASSWORD: wordpress123
+```
