@@ -83,7 +83,7 @@ fetch(data_url)
                     "render": function (data, type) {
                         return data.link != ""
                             ? `<a title="Go To Tutorial" class="tutorial-link" target="_blank" href="https://github.com/Blankscreen-exe/docker-practice/tree/main${data.link}">${data.title}</a>`
-                            : `<a title="Tutorial Not Available" class="tutorial-link disabled-link" target="_blank" href="#">${data.title}</a>`;
+                            : `<span title="Tutorial Not Available" class="tutorial-link disabled-link">${data.title}</span>`;
                     } 
                   },
                   {
