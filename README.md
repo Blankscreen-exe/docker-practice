@@ -38,7 +38,8 @@ You can learn from it as well since I have categorized everything and have writt
 | 017 | <span title="Not Started">🔴</span> | [Manage Secrets using Vault container]() | `Hosting`, `Secrets` |
 | 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
 | 019 | <span title="Not Started">🔴</span> | [Host CMS with backdrop]() | `Hosting`, `CMS` |
-| 020 | <span title="WIP">🟡</span> | [Host Tor browser within a browser](./020.%20host%20tor%20browser%20within%20a%20browser/) | `Hosting`, `Browser` |
+| 020 | <span title="WIP">🟡</span>         | [Host Tor browser within a browser](./020.%20host%20tor%20browser%20within%20a%20browser/) | `Hosting`, `Browser` |
 | 021 | <span title="Not Started">🔴</span> | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
+| 022 | <span title="Not Started">🔴</span> | [Create your own VPN server with WireGuard in Docker]() | `Hosting`, `VPN`, `Network` |
 <!--tutorials-table-end-->
 
