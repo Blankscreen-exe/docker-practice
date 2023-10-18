@@ -42,5 +42,6 @@ You can learn from it as well since I have categorized everything and have writt
 | 021 | <span title="Not Started">🔴</span> | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
 | 022 | <span title="Not Started">🔴</span> | [Create your own VPN server with WireGuard in Docker]() | `Hosting`, `VPN`, `Network` |
 | 023 | <span title="Not Started">🔴</span> | [Run Ubuntu GUI from inside a container]() | `OS`, `GUI` |
+| 024 | <span title="Not Started">🔴</span> | [Start a brand new WordPress project with other utilities]() | `Hosting`, `Wordpress`, `PhpMyAdmin`, `MySql` |
 <!--tutorials-table-end-->
 
