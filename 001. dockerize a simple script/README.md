@@ -1,3 +1,5 @@
+[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) [💻 Back to search](https://blankscreen-exe.github.io/docker-practice/)
+
 # Dockerize Simple Python Script
 
 I have dockerized a simple python script which only prints stuff.
@@ -13,7 +15,7 @@ On top of that, the `Dockerfile` also installs dependencies it gets from the `re
 - [x] Using 2 different methods to load ENV variables inside the container.
 - [x] Create a container from that image and run it to see it's output.
 
-## How To Use It?
+## How To Do It?
 
 You will need to build your own image named `dockerize_script`. If you change this name to something else you will not be able to use the `run.sh` script.
 
