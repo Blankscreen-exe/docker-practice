@@ -142,14 +142,14 @@ This section sets environment variables for configuring WordPress.
       WORDPRESS_DB_NAME: MyWordPressDB
 ```
 
-These lines define the database connection settings for WordPress. WORDPRESS_DB_HOST specifies the hostname and port of the MySQL server, WORDPRESS_DB_USER is the username to access the database, WORDPRESS_DB_PASSWORD is the password for the database user, and WORDPRESS_DB_NAME is the name of the database.
+These lines define the database connection settings for WordPress. `WORDPRESS_DB_HOST` specifies the hostname and port of the MySQL server, `WORDPRESS_DB_USER` is the username to access the database, `WORDPRESS_DB_PASSWORD` is the password for the database user, and `WORDPRESS_DB_NAME` is the name of the database.
 
 ```yml
     volumes:
       - ["./:/var/www/html"]
 ```
 
-This line sets up a volume, allowing the local directory (in this case, the current directory) to be mounted to the /var/www/html directory in the WordPress container. This is a common practice to allow data persistence for WordPress.
+This line sets up a volume, allowing the local directory (in this case, the current directory) to be mounted to the `/var/www/html` directory in the WordPress container. This is a common practice to allow data persistence for WordPress.
 
 ```yml
 volumes:
