@@ -156,3 +156,7 @@ volumes:
   mysql: {}
 ```
 This section defines a named volume named mysql. Named volumes are typically used for data storage or data persistence between container restarts. In this case, it's used for the MySQL data.
+
+Once you are done with all this you will need to go to http://localhost:8000 to install wordpress. After that you can now visit http://localhost:8080 to access the PhPMyAdmin console.
+
+You will also notice that the host directory we mapped to the one inside the docker container (which contains wordpress files) can now be easily accessed in the current working directory.
