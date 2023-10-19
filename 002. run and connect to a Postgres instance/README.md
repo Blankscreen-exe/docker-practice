@@ -1,3 +1,5 @@
+[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) [💻 Back to search](https://blankscreen-exe.github.io/docker-practice/)
+
 # Run and connect to a postgres DB instance
 
 I have established a postgres database instance withing a docker container and have accessed it using a simple python script. For now I am just printing the version(and other details) of the database, but you are able to run full fledged queries.
@@ -9,7 +11,7 @@ I have established a postgres database instance withing a docker container and h
 - [x] Create `.sql` backup files from the DB (inside the container) and copy it to our system's environment.
 - [x] Load `.sql` backup files from our system's environment to the DB instance running inside our container.
 
-## How To Use It?
+## How To Do It?
 
 First we need to pull a Postgres image
 
