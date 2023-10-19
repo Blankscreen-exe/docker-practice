@@ -35,7 +35,7 @@ This is the definition of the MySQL database service. It is given the name db.
       image: mysql:5.7
 ```
 
-This line specifies the Docker image to be used for the db service, which is mysql:5.7. It pulls the MySQL 5.7 image from Docker Hub.
+This line specifies the Docker image to be used for the db service, which is `mysql:5.7`. It pulls the MySQL 5.7 image from Docker Hub.
 
 ```yml
       restart: always
@@ -56,7 +56,7 @@ This section sets environment variables for the MySQL container.
       MYSQL_PASSWORD: password
 ```
 
-These lines define the environment variables for configuring MySQL. MYSQL_ROOT_PASSWORD is the root password for the MySQL server, MYSQL_DATABASE is the name of the database, MYSQL_USER is the username for connecting to the database, and MYSQL_PASSWORD is the password for the database user.
+These lines define the environment variables for configuring MySQL. `MYSQL_ROOT_PASSWORD` is the root password for the MySQL server, `MYSQL_DATABASE` is the name of the database, `MYSQL_USER` is the username for connecting to the database, and `MYSQL_PASSWORD` is the password for the database user.
 
 ```yml
   phpmyadmin:
@@ -68,7 +68,7 @@ This is the definition of the phpMyAdmin service.
       image: phpmyadmin/phpmyadmin:latest
 ```
 
-It specifies the Docker image for the phpMyAdmin service, which is phpmyadmin/phpmyadmin:latest, the latest version of phpMyAdmin.
+It specifies the Docker image for the phpMyAdmin service, which is `phpmyadmin/phpmyadmin:latest`, the latest version of phpMyAdmin.
 
 ```yml
       restart: always
