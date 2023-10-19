@@ -8,7 +8,7 @@ You can learn from it as well since I have categorized everything and have writt
 
 > 📌 Each tutorial will be found inside a separate folder (with prefix `000.` where `000` can by any number)
 
-### Checkout [this site](https://blankscreen-exe.github.io/docker-practice/) 💻 also for a better search experience.
+### 🌏 Web page deployed on https://blankscreen-exe.github.io/docker-practice/ for a better search experience.
 
 # Index
 
@@ -42,6 +42,6 @@ You can learn from it as well since I have categorized everything and have writt
 | 021 | <span title="Not Started">🔴</span> | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
 | 022 | <span title="Not Started">🔴</span> | [Create your own VPN server with WireGuard in Docker]() | `Hosting`, `VPN`, `Network` |
 | 023 | <span title="Not Started">🔴</span> | [Run Ubuntu GUI from inside a container]() | `OS`, `GUI` |
-| 024 | <span title="Not Started">🔴</span> | [Start a brand new WordPress project with other utilities]() | `Hosting`, `Wordpress`, `PhpMyAdmin`, `MySql` |
+| 024 | <span title="Done">🔵</span>        | [Start a brand new WordPress project with other utilities](./024.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities/) | `Hosting`, `Wordpress`, `DB Client`, `DB` |
 <!--tutorials-table-end-->
 
