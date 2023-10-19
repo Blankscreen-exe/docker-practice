@@ -1,3 +1,5 @@
+[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) [💻 Back to search](https://blankscreen-exe.github.io/docker-practice/)
+
 # Run and connect to a Redis instance
 
 I have established a Redis instance withing a docker container and have accessed it using a simple python script. 
@@ -10,7 +12,7 @@ I have set some values to keys and then called it back to see the response. To s
 - [x] User post mapping to connect to the Redis instance from our system's environment.
 - [ ] Export the cache to our system's environment.
 
-## How To Use It?
+## How To Do It?
 
 First we need to pull a Postgres image
 
