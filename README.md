@@ -43,5 +43,6 @@ You can learn from it as well since I have categorized everything and have writt
 | 022 | <span title="Not Started">🔴</span> | [Create your own VPN server with WireGuard in Docker]() | `Hosting`, `VPN`, `Network` |
 | 023 | <span title="Not Started">🔴</span> | [Run Ubuntu GUI from inside a container]() | `OS`, `GUI` |
 | 024 | <span title="Done">🔵</span>        | [Start a brand new WordPress project with other utilities](./024.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities/) | `Hosting`, `Wordpress`, `DB Client`, `DB` |
+| 025 | <span title="Not Started">🔴</span> | [Deploy HAProxy instance that Load Balances TCP connections to 2 Nginix servers]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
 <!--tutorials-table-end-->
 
