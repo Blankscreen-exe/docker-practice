@@ -34,6 +34,7 @@ body {
   background-color: aliceblue;
   border-radius: 3px;
   padding: 2px 4px;
+  height: fit-content;
 /*   margin-top: 16px; */
 }
 .tag-item:hover {
