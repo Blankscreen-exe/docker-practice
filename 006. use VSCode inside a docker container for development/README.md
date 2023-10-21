@@ -2,6 +2,13 @@
 
 # Use VSCode inside a docker container for development
 
+## What You Will Do?
+
+- [x] Setup a docker container with your prefered environment
+- [x] Connect to the container using `Remote Explorer`
+- [x] Perform Development within the container
+- [x] Persist file data for future use
+
 ## How to Set Up?
 
 ### Step 1: Create a custom image with your code
@@ -10,10 +17,10 @@ You will need a **custom image** which contains your source code. You can even d
 
 Create a `Dockerfile` with configurations for your custom image. Here are the things you need to keep in mind before initiating the `build` command:
 
-- [ ] Select a working directory
-- [ ] Install dependencies
-- [ ] Copy source code into the container
-- [ ] Run the app
+- Select a working directory
+- Install dependencies
+- Copy source code into the container
+- Run the app
 
 These are the basic stuff. After making sure of the above list build your custom image.
 

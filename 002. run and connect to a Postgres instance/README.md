@@ -39,7 +39,7 @@ Before you connect your python script file with the database instance, you need 
 pip3 install psycopg2-binary
 ```
 
-## Create Backup Files From The Database Inside The Container
+### Create Backup Files From The Database Inside The Container
 
 First make sure that the container with `--name psotgres-container` is running.
 
@@ -81,7 +81,7 @@ db_backup_testdb001_2023-10-06_18:39.sql was copied to:
 
 > **NOTE:** description of how this file works is given inside the file itself
 
-## Loading A Backup File To The Database Inside Docker 
+### Loading A Backup File To The Database Inside Docker 
 
 First make sure that the container with `--name psotgres-container` is running.
 
