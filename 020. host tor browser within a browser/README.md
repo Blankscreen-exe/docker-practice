@@ -1,6 +1,12 @@
-[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) [💻 Back to search](https://blankscreen-exe.github.io/docker-practice/)
+[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) ▪️ [↗️ Back to search](https://blankscreen-exe.github.io/docker-practice/)
 
 # Host Tor Browser 
+
+# What You Will Do?
+
+- [x] Host a Tor Browser instance in a docker container
+- [x] Connect it to the host machine's port for access
+- [ ] Setup the Tor browser for usage
 
 ## How To Do It?
 
