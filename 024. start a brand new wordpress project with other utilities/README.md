@@ -6,6 +6,7 @@
 
 - [x] Setup an ubuntu machine which will host wordpress
 - [x] Setup Wordpress
+- [x] Create a Volume for persistent storing wordpress files
 - [x] Setup a Mysql database for use with wordpress
 - [x] Setup PhPMyAdmin console and use it to manipulate the DB 
 
