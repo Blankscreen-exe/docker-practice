@@ -1,13 +1,13 @@
-[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) [💻 Back to search](https://blankscreen-exe.github.io/docker-practice/)
+[⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) ▪️ [↗️ Back to search](https://blankscreen-exe.github.io/docker-practice/)
 
 # 024. Start a brand new WordPress project with other utilities
 
 ## What you will do?
 
-- Setup an ubuntu machine which will host wordpress
-- Setup Wordpress
-- Setup a Mysql database for use with wordpress
-- Setup PhPMyAdmin console and use it to manipulate the DB 
+- [x] Setup an ubuntu machine which will host wordpress
+- [x] Setup Wordpress
+- [x] Setup a Mysql database for use with wordpress
+- [x] Setup PhPMyAdmin console and use it to manipulate the DB 
 
 ## How to do it?
 
@@ -160,3 +160,7 @@ This section defines a named volume named mysql. Named volumes are typically use
 Once you are done with all this you will need to go to http://localhost:8000 to install wordpress. After that you can now visit http://localhost:8080 to access the PhPMyAdmin console.
 
 You will also notice that the host directory we mapped to the one inside the docker container (which contains wordpress files) can now be easily accessed in the current working directory.
+
+## Resources
+
+- [Set up wordpress container on Docker - Hostinger](https://www.hostinger.com/tutorials/run-docker-wordpress#Step_2_%E2%80%93_Set_Up_WordPress_Container_on_Docker)
