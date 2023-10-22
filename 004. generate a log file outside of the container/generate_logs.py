@@ -24,6 +24,9 @@ def generate_dummy_logs():
         timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
         
         # Print the log message with timestamp
+        with open("logs.txt", "a") as log_file:
+            print(f"[{timestamp}] - {log_message}", file=log_file)
+            
         print(f"[{timestamp}] - {log_message}")
         
         # Sleep for a random interval (simulating log generation)
