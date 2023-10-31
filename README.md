@@ -8,7 +8,7 @@ You can learn from it as well since I have categorized everything and have writt
 
 > 📌 Each tutorial will be found inside a separate folder (with prefix `000.` where `000` can by any number)
 
-### 🌏 Web page deployed on https://blankscreen-exe.github.io/docker-practice/ for a better search experience.
+[![link_to_webpage](./docs/assets/img/web_link.png)](https://blankscreen-exe.github.io/docker-practice/)
 
 # Index
 
@@ -44,5 +44,6 @@ You can learn from it as well since I have categorized everything and have writt
 | 023 | <span title="Not Started">🔴</span> | [Run Ubuntu GUI from inside a container]() | `OS`, `GUI` |
 | 024 | <span title="Done">🔵</span>        | [Start a brand new WordPress project with other utilities](./024.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities/) | `Hosting`, `Wordpress`, `DB Client`, `DB` |
 | 025 | <span title="Not Started">🔴</span> | [Deploy HAProxy instance that Load Balances TCP connections to 2 Nginix servers]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
+| 026 | <span title="Not Started">🔴</span> | [Deploy KASM services]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
 <!--tutorials-table-end-->
 
