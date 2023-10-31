@@ -39,11 +39,11 @@ You can learn from it as well since I have categorized everything and have writt
 | 018 | <span title="Not Started">🔴</span> | [Host URL shortener with yourls]() | `Hosting`, `Url shortener` |
 | 019 | <span title="Not Started">🔴</span> | [Host CMS with backdrop]() | `Hosting`, `CMS` |
 | 020 | <span title="WIP">🟡</span>         | [Host Tor browser within a browser](./020.%20host%20tor%20browser%20within%20a%20browser/) | `Hosting`, `Browser` |
-| 021 | <span title="Not Started">🔴</span> | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
+| 021 | <span title="WIP">🟡</span>         | [Create a complete Tor Onion Service with Docker and OpenSUSE]() | `Hosting`, `Browser`, `Network` |
 | 022 | <span title="Not Started">🔴</span> | [Create your own VPN server with WireGuard in Docker]() | `Hosting`, `VPN`, `Network` |
 | 023 | <span title="Not Started">🔴</span> | [Run Ubuntu GUI from inside a container]() | `OS`, `GUI` |
 | 024 | <span title="Done">🔵</span>        | [Start a brand new WordPress project with other utilities](./024.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities/) | `Hosting`, `Wordpress`, `DB Client`, `DB` |
 | 025 | <span title="Not Started">🔴</span> | [Deploy HAProxy instance that Load Balances TCP connections to 2 Nginix servers]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
-| 026 | <span title="Not Started">🔴</span> | [Deploy KASM services]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
+| 026 | <span title="Not Started">🔴</span> | [Deploy KASM services]() | `Server`, `OS` |
 <!--tutorials-table-end-->
 
