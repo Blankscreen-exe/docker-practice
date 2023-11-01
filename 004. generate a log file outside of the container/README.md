@@ -50,9 +50,11 @@ docker compose up
 
 ...
 
+## Log preview
+
 You will see your logs being generated like this:
 
-![logs.txt](./doc/img/logs.png)
+<img src="./doc/img/logs.png" width=500px />
 
 ## Resources
 
