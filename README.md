@@ -22,7 +22,7 @@ You can learn from it as well since I have categorized everything and have writt
 | 001 | <span title="Done">🔵</span>        | [Dockerize a simple script](./001.%20dockerize%20a%20simple%20script/) | `Generic` |
 | 002 | <span title="Done">🔵</span>        | [Run and connect to a Postgres instance](./002.%20run%20and%20connect%20to%20a%20Postgres%20instance/)   | `Generic`, `Hosting`, `DB` |
 | 003 | <span title="Done">🔵</span>        | [Run and connect to a Redis instance](./003.%20run%20and%20connect%20to%20a%20Redis%20instance/) | `Generic`, `Hosting`, `Redis` |
-| 004 | <span title="WIP">🟡</span>         | [Generate a log file outside of the container](./004.%20generate%20a%20log%20file%20outside%20of%20the%20container/) | `Generic`, `Logging` |
+| 004 | <span title="Done">🔵</span>        | [Generate app logs outside of the container](./004.%20generate%20app%20logs%20outside%20of%20the%20container/) | `Generic`, `Logging` |
 | 005 | <span title="Not Started">🔴</span> | [Host an existing Wordpress project]() | `Hosting`, `Wordpress` |
 | 006 | <span title="Done">🔵</span>        | [Use VSCode inside a Docker container for development](./006.%20use%20VSCode%20inside%20a%20docker%20container%20for%20development/) | `Virtual IDE`, `VSCode` |
 | 007 | <span title="Done">🔵</span>        | [Host a CyberChef Instance](./007.%20host%20a%20cyberchef%20instance/) | `CyberChef`, `Tool` |
