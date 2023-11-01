@@ -1,8 +1,9 @@
 # This module is used for generating dummy logs along with timestamps
-# These logs are generated to the stdout
+# These logs are generated to the logs.txt
 
-import time
 import random
+import time
+from app_logger import app_logger
 
 # dummy log messages
 log_messages = [
@@ -14,20 +15,14 @@ log_messages = [
 ]
 
 def generate_dummy_logs():
-    """throws log messages to stdout infinitly along with timestamps
+    """throws log messages to stdout and logs.txt infinitly along with timestamps
     """
     while True:
         # Choose a random log message
         log_message = random.choice(log_messages)
         
-        # Get the current timestamp
-        timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
-        
-        # Print the log message with timestamp
-        with open("logs.txt", "a") as log_file:
-            print(f"[{timestamp}] - {log_message}", file=log_file)
-            
-        print(f"[{timestamp}] - {log_message}")
+        # call the app logger to log messages
+        app_logger(log_message)
         
         # Sleep for a random interval (simulating log generation)
         time.sleep(random.uniform(1, 5))

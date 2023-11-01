@@ -1,0 +1,24 @@
+version: "3" 
+services:
+  backdrop:
+    image: backdrop
+    depends_on:
+      - db
+    links:
+      - db:mysql
+    ports:
+      - 8080:80
+    environment:
+      BACKDROP_DB_HOST: localhost
+      MYSQL_PORT_3306_ADDR: 3306
+      BACKDROP_DB_PASSWORD: backdrop
+      BACKDROP_DB_USER: backdrop
+      BACKDROP_DB_NAME: backdrop
+
+  db:
+    image: mysql
+    environment:
+      MYSQL_USER: backdrop
+      MYSQL_PASSWORD: backdrop
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: backdrop
