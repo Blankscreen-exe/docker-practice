@@ -207,6 +207,25 @@ body {
 }
 
 /*********************************************
+ Accordion
+*********************************************/
+
+#accordionFlushDiv {
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.accordion-body {
+  background-color: #f0f8ff9c;
+  /* border-radius: 0px 0px 10px 10px; */
+}
+
+.code-item {
+  color: #0076ca;
+  font-weight: bold;
+}
+
+/*********************************************
  Responsiveness
 *********************************************/
 
