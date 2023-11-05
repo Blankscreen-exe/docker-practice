@@ -13,7 +13,7 @@ You can learn from it as well since I have categorized everything and have writt
 # Contribution Guidelines
 
 If you are willing to contribute to this repository by submitting your own tutorial, make sure you have fulfilled the following points:
-
+<!--contribution-guidelines-start-->
 - [x] Tutorial title starts with a 3-digit serial number followed by a dot(.), then a space, then the title. e.g. `001. dockerize a simple script`
 - [x] Tutorial folder name should have all lowercase letters.
 - [x] Tutorial name and serial number in the main README, README inside the tutorial folder and in the folder name, should all be *same*.
@@ -23,6 +23,7 @@ If you are willing to contribute to this repository by submitting your own tutor
 - [x] In case your tutorial requires images to be shown, you can put them inside `000. tutorial/docs/img` folder present inside the project folder. DO NOT put them in the root `/docs` folder.
 - [x] Tutorial should contain all the supporting files which you are using in the demonstration. 
 - [x] Tutorial should be about Docker and related technologies, such as Kubernetes. Any tutorial other than docker will be rejected.
+<!--contribution-guidelines-end-->
 
 # Index
 
