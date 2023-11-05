@@ -10,6 +10,20 @@ You can learn from it as well since I have categorized everything and have writt
 
 [![link_to_webpage](./docs/assets/img/web_link.png)](https://blankscreen-exe.github.io/docker-practice/)
 
+# Contribution Guidelines
+
+If you are willing to contribute to this repository by submitting your own tutorial, make sure you have fulfilled the following points:
+
+- [x] Tutorial title starts with a 3-digit serial number followed by a dot(.), then a space, then the title. e.g. `001. dockerize a simple script`
+- [x] Tutorial folder name should have all lowercase letters.
+- [x] Tutorial name and serial number in the main README, README inside the tutorial folder and in the folder name, should all be *same*.
+- [x] README.md inside the project folder should be based on the template provided in the `/template/README.md`.
+- [x] Tags should be relevant to the tutorial you are submitting. These tags will only be written inside of the root README.md.
+- [x] Tutorial should contain a detailed `README.md` inside the project folder.
+- [x] In case your tutorial requires images to be shown, you can put them inside `000. tutorial/docs/img` folder present inside the project folder. DO NOT put them in the root `/docs` folder.
+- [x] Tutorial should contain all the supporting files which you are using in the demonstration. 
+- [x] Tutorial should be about Docker and related technologies, such as Kubernetes. Any tutorial other than docker will be rejected.
+
 # Index
 
 <!-- <span title="Done">🔵</span> -->
