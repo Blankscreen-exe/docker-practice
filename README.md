@@ -13,6 +13,7 @@ You can learn from it as well since I have categorized everything and have writt
 # Contribution Guidelines
 
 If you are willing to contribute to this repository by submitting your own tutorial, make sure you have fulfilled the following points:
+
 <!--contribution-guidelines-start-->
 - [x] Tutorial title starts with a 3-digit serial number followed by a dot(.), then a space, then the title. e.g. `001. dockerize a simple script`
 - [x] Tutorial folder name should have all lowercase letters.
