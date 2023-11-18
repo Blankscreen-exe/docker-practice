@@ -58,8 +58,7 @@ def parse_markdown_table():
         
         # write data to data.json file
         with open(os.path.dirname(__file__) + '/../data/data.json', 'w') as data_file:
-          # data_file.write(json.dumps(table_data_to_export, data_file, indent=4))
-          json.dumps(table_data_to_export, data_file, indent=4)
+          data_file.write(json.dumps(table_data_to_export, indent=4))
           print(f"==== Successfully json data to docs/data/data.json ====")
           
 
