@@ -10,7 +10,7 @@ def format_content(text):
     formatted_text = re.sub(pattern, r'<span class="code-item">\1</span>', text)
     return formatted_text
   
-def parse_markdown_table():
+def parse_contrib_guidelines():
   """Reads and parses contribution guidelines inside README.md"""
   
   with open(os.path.dirname(__file__) + '/../README.md', 'r') as file:
@@ -58,4 +58,4 @@ def parse_markdown_table():
           
 
 if __name__=="__main__":
-  parse_markdown_table()
+  parse_contrib_guidelines()

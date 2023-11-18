@@ -51,7 +51,16 @@ def parse_markdown_table():
               # append the data
               table_data_to_export.append(json_data)
               print(f"==== Successfully appended list item with id \033[93m({id})\033[00m at line number \033[93m({index})\033[00m ====")
-              print(title)
+              
+              if status=="Done":
+                staus_symbol = "🔵"
+              elif status=="Not Started":
+                staus_symbol = "🔴"
+              elif status=="WIP":
+                staus_symbol = "🟡"
+              else:
+                status_symbol = "⚪️"
+              print(staus_symbol, title)
               
             except:
               pass
@@ -59,7 +68,7 @@ def parse_markdown_table():
         # write data to data.json file
         with open(os.path.dirname(__file__) + '/../data/data.json', 'w') as data_file:
           data_file.write(json.dumps(table_data_to_export, indent=4))
-          print(f"==== Successfully json data to docs/data/data.json ====")
+          print(f"==== Successfully json data to data/data.json ====")
           
 
 if __name__=="__main__":
