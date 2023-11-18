@@ -7,7 +7,7 @@ END_INDICATOR = "<!--contribution-guidelines-end-->"
 
 def format_content(text):
     pattern = r'`([^`]*)`'
-    formatted_text = re.sub(pattern, r'<span class="code-item">\1</span>', text)
+    formatted_text = re.sub(pattern, r"<span class='code-item'>\1</span>", text)
     return formatted_text
   
 def parse_contrib_guidelines():
