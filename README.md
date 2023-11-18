@@ -65,4 +65,3 @@ If you are willing to contribute to this repository by submitting your own tutor
 | 028 | <span title="WIP">🟡</span>         | [Host two websocket chat apps and communicate with each other](./028.%20host%20two%20websocket%20chat%20apps%20and%20communicate%20with%20each%20other/) | `Websocket`, `Hosting`, `Networking` |
 | 029 | <span title="Not Started">🔴</span> | [Deploy a personal blockchain network]() | `Hosting`, `Blockchain`, `Networking` |
 <!--tutorials-table-end-->
-
