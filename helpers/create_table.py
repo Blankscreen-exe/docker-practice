@@ -19,10 +19,10 @@ def parse_markdown_table():
           # switches for table area location in README
           if TABLE_START_INDICATOR in line:
             table_found = True
-            print(f"==== \033[01m\033[46mSTART FOUND at {index}\033[00m ====")
+            print(f"==== \033[01;46mSTART FOUND at {index}\033[00m ====")
             continue
           if TABLE_END_INDICATOR in line:
-            print(f"==== \033[01m\033[46mEND FOUND AT {index}\033[00m ====")
+            print(f"==== \033[01;46mEND FOUND AT {index}\033[00m ====")
             break
           
           if table_found:
@@ -51,12 +51,15 @@ def parse_markdown_table():
               # append the data
               table_data_to_export.append(json_data)
               print(f"==== Successfully appended list item with id \033[93m({id})\033[00m at line number \033[93m({index})\033[00m ====")
+              print(title)
+              
             except:
               pass
         
         # write data to data.json file
-        with open(os.path.dirname(__file__) + '/../docs/data/data.json', 'w') as data_file:
-          data_file.write(json.dumps(table_data_to_export))
+        with open(os.path.dirname(__file__) + '/../data/data.json', 'w') as data_file:
+          # data_file.write(json.dumps(table_data_to_export, data_file, indent=4))
+          json.dumps(table_data_to_export, data_file, indent=4)
           print(f"==== Successfully json data to docs/data/data.json ====")
           
 
