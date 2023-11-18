@@ -39,7 +39,7 @@ If you are willing to contribute to this repository by submitting your own tutor
 | 002 | <span title="Done">🔵</span>        | [Run and connect to a Postgres instance](./002.%20run%20and%20connect%20to%20a%20Postgres%20instance/)   | `Generic`, `Hosting`, `DB` |
 | 003 | <span title="Done">🔵</span>        | [Run and connect to a Redis instance](./003.%20run%20and%20connect%20to%20a%20Redis%20instance/) | `Generic`, `Hosting`, `Redis` |
 | 004 | <span title="Done">🔵</span>        | [Generate app logs outside of the container](./004.%20generate%20app%20logs%20outside%20of%20the%20container/) | `Generic`, `Logging` |
-| 005 | <span title="Not Started">🔴</span> | [Host an existing Wordpress project]() | `Hosting`, `Wordpress` |
+| 005 | <span title="Done">🔵</span>        | [Host an existing Wordpress project](./005.%20host%20an%20existing%20wordpress%20project/) | `Hosting`, `Wordpress`, `DB`, `DB Client` |
 | 006 | <span title="Done">🔵</span>        | [Use VSCode inside a Docker container for development](./006.%20use%20VSCode%20inside%20a%20docker%20container%20for%20development/) | `Virtual IDE`, `VSCode` |
 | 007 | <span title="Done">🔵</span>        | [Host a CyberChef Instance](./007.%20host%20a%20cyberchef%20instance/) | `CyberChef`, `Tool` |
 | 008 | <span title="Not Started">🔴</span> | [Setup a network between containers and expose it to host ports]() | `Generic`, `Hosting`, `Container Networking` |
