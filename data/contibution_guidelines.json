@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "content": "Tutorial title starts with a 3-digit serial number followed by a dot(.), then a space, then the title. e.g. <span class='code-item'>001. dockerize a simple script</span>."
+    },
+    {
+        "id": 2,
+        "content": "Tutorial folder name should have all lowercase letters."
+    },
+    {
+        "id": 3,
+        "content": "Tutorial name and serial number in the main README, README inside the tutorial folder and in the folder name, should all be *same*."
+    },
+    {
+        "id": 4,
+        "content": "README.md inside the project folder should be based on the template provided in the <span class='code-item'>/template/README.md</span>."
+    },
+    {
+        "id": 5,
+        "content": "Tags should be relevant to the tutorial you are submitting. These tags will only be written inside of the root README.md."
+    },
+    {
+        "id": 6,
+        "content": "Tutorial should contain a detailed <span class='code-item'>README.md</span> inside the project folder."
+    },
+    {
+        "id": 7,
+        "content": "In case your tutorial requires images to be shown, you can put them inside <span class='code-item'>000. tutorial/docs/img</span> folder present inside the project folder. DO NOT put them in the root <span class='code-item'>/docs</span> folder."
+    },
+    {
+        "id": 8,
+        "content": "Tutorial should contain all the supporting files which you are using in the demonstration."
+    },
+    {
+        "id": 9,
+        "content": "Tutorial should be about Docker and related technologies, such as Kubernetes. Any tutorial other than docker will be rejected."
+    }
+]
