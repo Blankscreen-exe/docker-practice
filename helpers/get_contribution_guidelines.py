@@ -21,6 +21,8 @@ def parse_contrib_guidelines():
         
         content_to_export = []
         
+        content_counter = 1
+        
         for index, line in enumerate(lines):
           # switches for table area location in README
           if START_INDICATOR in line:
@@ -40,12 +42,15 @@ def parse_contrib_guidelines():
             try:
               
               json_data = {
-                  "id": index,
+                  "id": content_counter,
                   "content": content
               }
               # append the data
               content_to_export.append(json_data)
-              print(f"==== Successfully appended list item with id \033[93m({id})\033[00m at line number \033[93m({index})\033[00m ====")
+              
+              content_counter += 1
+              
+              print(f"==== Successfully appended list item at line number \033[93m({index})\033[00m ====")
               print(title)
               
             except:
