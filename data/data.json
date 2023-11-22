@@ -88,10 +88,10 @@
     },
     {
         "id": 8,
-        "status": "Not Started",
+        "status": "Done",
         "topic": {
             "title": "Create a persistent data storage area to store backup files",
-            "link": ""
+            "link": "/008.%20create%20a%20persistent%20data%20storage%20area%20to%20store%20backup%20files"
         },
         "tags": [
             "Generic",
@@ -226,7 +226,7 @@
         "status": "WIP",
         "topic": {
             "title": "Host Tor browser within a browser",
-            "link": "/020.%20host%20tor%20browser%20within%20a%20browser"
+            "link": "/019.%20host%20tor%20browser%20within%20a%20browser"
         },
         "tags": [
             "Hosting",
@@ -276,7 +276,7 @@
         "status": "Done",
         "topic": {
             "title": "Start a brand new WordPress project with other utilities",
-            "link": "/024.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities"
+            "link": "/023.%20start%20a%20brand%20new%20wordpress%20project%20with%20other%20utilities"
         },
         "tags": [
             "Hosting",
@@ -328,7 +328,7 @@
         "status": "WIP",
         "topic": {
             "title": "Host two websocket chat apps and communicate with each other",
-            "link": "/028.%20host%20two%20websocket%20chat%20apps%20and%20communicate%20with%20each%20other"
+            "link": "/027.%20host%20two%20websocket%20chat%20apps%20and%20communicate%20with%20each%20other"
         },
         "tags": [
             "Websocket",
