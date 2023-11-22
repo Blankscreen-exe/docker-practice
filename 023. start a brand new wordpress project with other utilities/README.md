@@ -1,6 +1,6 @@
 [⬅️ Back to repo home](https://github.com/Blankscreen-exe/docker-practice) ▪️ [↗️ Back to search](https://blankscreen-exe.github.io/docker-practice/)
 
-# 024. Start a brand new WordPress project with other utilities
+# Start a brand new WordPress project with other utilities
 
 ## What you will do?
 
