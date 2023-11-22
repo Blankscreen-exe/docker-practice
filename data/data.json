@@ -90,19 +90,6 @@
         "id": 8,
         "status": "Not Started",
         "topic": {
-            "title": "Setup a network between containers and expose it to host ports",
-            "link": ""
-        },
-        "tags": [
-            "Generic",
-            "Hosting",
-            "Container Networking"
-        ]
-    },
-    {
-        "id": 9,
-        "status": "Not Started",
-        "topic": {
             "title": "Create a persistent data storage area to store backup files",
             "link": ""
         },
@@ -113,7 +100,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 9,
         "status": "Not Started",
         "topic": {
             "title": "Set up a highly available Kubernetes cluster",
@@ -125,7 +112,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 10,
         "status": "Not Started",
         "topic": {
             "title": "Implement container security",
@@ -137,7 +124,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 11,
         "status": "Not Started",
         "topic": {
             "title": "Create Multi-Stage Builds",
@@ -149,7 +136,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 12,
         "status": "Not Started",
         "topic": {
             "title": "Audit docker security",
@@ -162,7 +149,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 13,
         "status": "Not Started",
         "topic": {
             "title": "Create a Sample CI/CD pipeline",
@@ -174,7 +161,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 14,
         "status": "Not Started",
         "topic": {
             "title": "Host a Team Password Manager for secure pass-keeping",
@@ -186,7 +173,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 15,
         "status": "Not Started",
         "topic": {
             "title": "Host a simple HTML website",
@@ -199,7 +186,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 16,
         "status": "Not Started",
         "topic": {
             "title": "Manage Secrets using Vault container",
@@ -211,7 +198,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 17,
         "status": "Not Started",
         "topic": {
             "title": "Host URL shortener with yourls",
@@ -223,7 +210,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 18,
         "status": "Not Started",
         "topic": {
             "title": "Host CMS with backdrop",
@@ -235,7 +222,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 19,
         "status": "WIP",
         "topic": {
             "title": "Host Tor browser within a browser",
@@ -247,7 +234,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 20,
         "status": "WIP",
         "topic": {
             "title": "Create a complete Tor Onion Service with Docker and OpenSUSE",
@@ -260,7 +247,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 21,
         "status": "Not Started",
         "topic": {
             "title": "Create your own VPN server with WireGuard in Docker",
@@ -273,7 +260,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 22,
         "status": "Not Started",
         "topic": {
             "title": "Run Ubuntu GUI from inside a container",
@@ -285,7 +272,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 23,
         "status": "Done",
         "topic": {
             "title": "Start a brand new WordPress project with other utilities",
@@ -299,7 +286,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 24,
         "status": "Not Started",
         "topic": {
             "title": "Deploy HAProxy instance that Load Balances TCP connections to 2 Nginix servers",
@@ -313,7 +300,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 25,
         "status": "Not Started",
         "topic": {
             "title": "Host KASM browser-accessible Ubuntu Bionic Desktop",
@@ -326,7 +313,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 26,
         "status": "Not Started",
         "topic": {
             "title": "Use FluentD to manage container logs",
@@ -337,7 +324,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 27,
         "status": "WIP",
         "topic": {
             "title": "Host two websocket chat apps and communicate with each other",
@@ -350,7 +337,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 28,
         "status": "Not Started",
         "topic": {
             "title": "Deploy a personal blockchain network",
