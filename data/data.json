@@ -325,10 +325,10 @@
     },
     {
         "id": 27,
-        "status": "WIP",
+        "status": "Done",
         "topic": {
-            "title": "Host two websocket chat apps and communicate with each other",
-            "link": "/027.%20host%20two%20websocket%20chat%20apps%20and%20communicate%20with%20each%20other"
+            "title": "Host Two Or More Websocket Apps And Establish Communication Between Them",
+            "link": "/027.%20host%20two%20or%20more%20websocket%20apps%20and%20establish%20communication%20between%20them"
         },
         "tags": [
             "Websocket",
