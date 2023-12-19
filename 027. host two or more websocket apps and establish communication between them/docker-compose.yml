@@ -1,0 +1,31 @@
+version: '3'
+services:
+
+  server:
+    build: ./server
+
+  client01:
+    build: ./client
+    environment:
+      - CLIENT_NAME="Client-100"
+      - LAG_TIME=2
+    depends_on:
+      - server
+
+  client02:
+    build: ./client
+    environment:
+      - CLIENT_NAME="Client-200"
+      - LAG_TIME=3
+    depends_on:
+      - server
+
+  client03:
+    build: ./client
+    environment:
+      - CLIENT_NAME="Client-300"
+      - LAG_TIME=4
+    depends_on:
+      - server
+
+

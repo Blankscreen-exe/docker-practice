@@ -61,7 +61,7 @@ If you are willing to contribute to this repository by submitting your own tutor
 | 024 | <span title="Not Started">🔴</span> | [Deploy HAProxy instance that Load Balances TCP connections to 2 Nginix servers]() | `Server`, `Load Balancing`, `Network`, `Proxy` |
 | 025 | <span title="Not Started">🔴</span> | [Host KASM browser-accessible Ubuntu Bionic Desktop]() | `Hosting`, `Server`, `OS` |
 | 026 | <span title="Not Started">🔴</span> | [Use FluentD to manage container logs]() | `Logging` |
-| 027 | <span title="WIP">🟡</span>         | [Host two websocket chat apps and communicate with each other](./027.%20host%20two%20websocket%20chat%20apps%20and%20communicate%20with%20each%20other/) | `Websocket`, `Hosting`, `Networking` |
+| 027 | <span title="Done">🔵</span>        | [Host Two Or More Websocket Apps And Establish Communication Between Them](./027.%20host%20two%20or%20more%20websocket%20apps%20and%20establish%20communication%20between%20them/) | `Websocket`, `Hosting`, `Networking` |
 | 028 | <span title="Not Started">🔴</span> | [Deploy a personal blockchain network]() | `Hosting`, `Blockchain`, `Networking` |
 <!--tutorials-table-end-->
 
