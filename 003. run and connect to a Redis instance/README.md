@@ -39,3 +39,7 @@ Before you connect your python script file with the cache service instance, you 
 ```shell
 pip install redis
 ```
+
+## Resources
+
+- [How to Use the Redis Docker Official Image](https://www.docker.com/blog/how-to-use-the-redis-docker-official-image/)
