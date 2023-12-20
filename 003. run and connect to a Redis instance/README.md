@@ -43,3 +43,4 @@ pip install redis
 ## Resources
 
 - [How to Use the Redis Docker Official Image](https://www.docker.com/blog/how-to-use-the-redis-docker-official-image/)
+- [Setting up Redis Commander and Docker: A Guide](https://copyprogramming.com/howto/how-to-setup-redis-commander-and-docker)
