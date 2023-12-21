@@ -79,6 +79,31 @@ The `depends_on` parameter shows that the client containers should only be start
 
 Since all of the communication is going within the Docker environment we do not need to expose and ports to our host machine.
 
+### Checking the server logs
+
+The server script stores its logs in a file named as `server_logs.txt` present in the same directory as `server.py`.
+
+To check in on the continuously increasing logs, you can run the following from your terminal:
+
+```shell
+docker logs websockets-server-1
+```
+
+Where `websockets-server-1` is the name of the server container.
+
+To check the `server_logs.txt` file from within the container, you can run:
+
+```shell
+# get into container shell
+docker exec -it websockets-server-1 bash
+
+# go into the /app directory
+cd /app
+
+# open the server_logs.txt to view its contents
+cat server_logs.txt
+```
+
 ## Resources
 
 - [Building an instant messaging application using Python and WebSockets](https://medium.com/@abderraoufbenchoubane/building-a-real-time-websocket-server-using-python-d557c43a3ff3)
